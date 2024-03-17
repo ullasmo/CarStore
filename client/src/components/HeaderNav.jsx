@@ -48,7 +48,9 @@ export default function HeaderNav() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch md:justify-start">
                 <Link to="/" className="flex flex-shrink-0 items-center">
-                  <h1 className="text-3xl font-extrabold text-white">CS</h1>
+                  <h1 className="text-3xl font-bold">
+                    Car<span className="text-black">Store</span>
+                  </h1>
                 </Link>
                 <div className="hidden md:ml-6 md:block">
                   <div className="flex space-x-4 ">
