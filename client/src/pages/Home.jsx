@@ -159,7 +159,10 @@ export default function Home() {
         <div className="max-w-6xl mx-auto flex flex-col lg:flex-row justify-between items-start px-4">
           {/* Logo Column */}
           <div className="flex gap-2 mb-4 lg:mb-0 lg:w-1/4">
-            <img src="../images/logoW.png" alt="Logo" className="w-36 h-auto" />
+            {/* <img src="../images/logoW.png" alt="Logo" className="w-36 h-auto" /> */}
+            <h1 className="text-3xl font-bold">
+              Car<span className="text-blue-700">Store</span>
+            </h1>
           </div>
           {/* Quick Links Column */}
           <div className="flex flex-col gap-2 lg:w-1/4 md:w-1/2 sm:w-1/2">
